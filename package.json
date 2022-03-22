@@ -3,13 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "cors": "^2.8.5",
+    "firebase": "^9.6.9",
+    "formik": "^2.2.9",
+    "framer-motion": "^6.2.8",
+    "html-to-image": "^1.9.0",
     "react": "^17.0.2",
+    "react-component-export-image": "^1.0.6",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
     "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
+    "redux": "^4.1.2",
+    "redux-persist": "^6.0.0",
+    "use-react-screenshot": "^3.0.0",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +47,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "eslint-config-eslint": "^7.0.0",
+    "postcss": "^8.4.8",
+    "tailwindcss": "^3.0.23"
   }
 }
